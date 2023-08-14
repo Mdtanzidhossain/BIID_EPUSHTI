@@ -1,0 +1,85 @@
+/* Navbar.css */
+*{
+  font-family:'Times New Roman', Times, serif;
+}
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content:left;
+  padding-inline-start: 40px;
+  align-items: center;
+  background-color: #FB7E06;
+  color: white;
+
+}
+.logo{
+  padding: 5px;
+  width: 90px;
+  height: 70px; 
+}
+
+/* List styling */
+.navbar-items {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 30;
+  font-size: 23px;
+  font-weight: 400;
+  background-color: #FB7E06;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.navbar-items li {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* Language dropdown styling */
+.language-dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #FB7E06;
+  border: none;
+
+}
+
+/* Select dropdown styling */
+.language-dropdown select {
+  appearance: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #FB7E06;
+  font-weight: 400;
+  font-size: 23px;
+  margin-bottom: 20px;
+
+}
+
+/* Flag icon styling */
+.flag-icon {
+  width: 20px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Space between flag and language name */
+}
+
+/* Login and Register buttons */
+.navbtn {
+  margin-left: auto;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  color: #FB7E06;
+  padding: 10px 20px;
+  margin-left: 10px;
+  
+}
+
+/* Hover effect */
+.navbar-items li:hover {
+  font-weight: 600;
+  font-size: large;
+}
