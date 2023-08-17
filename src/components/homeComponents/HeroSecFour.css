@@ -1,0 +1,50 @@
+.card {
+    background-color: #44B3E0;
+    border-radius: 40px;
+    margin: 10px;
+    box-shadow: 15px 8px 0px 0px rgba(0, 0, 0, 0.25), -5px 2px 0px 0px rgba(0, 0, 0, 0.25);/* Add shadow to the card body */
+  }
+  
+  .crdimg {
+    max-height: 150px;
+    width: 50%;
+    margin: 10px auto; /* Center the image horizontally */
+    padding-top: 10px;
+  }
+  
+  .hero4btn {
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 20px; /* Adjust padding */
+    border: none;
+    font-weight: 600;
+    margin: 10px auto; /* Center the button horizontally */
+  }
+  
+
+  /* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+    .crdimg {
+      max-height: 120px; /* Adjust image height for mobile */
+      padding-top: 10px;
+      
+    }
+  
+    .hero4btn {
+      padding: 8px 15px; /* Adjust button padding for mobile */
+    }
+  }
+  
+  /* Tablets and Desktops (769px and above) */
+  @media (min-width: 769px) {
+    .crdimg {
+      max-height: 170px;
+      padding-top: 10px;
+    }
+  
+    .hero4btn {
+      padding: 10px 20px;
+    }
+  }
+  

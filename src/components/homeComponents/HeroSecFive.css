@@ -1,0 +1,76 @@
+.feature-section {
+    background-image: url('../../assets/heroSec5bg.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0; /* Adjust padding as needed */
+  }
+  
+  .feature-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    border-radius: 30px;
+    padding: 0px 10px;
+
+  }
+  
+  .herofive {
+    margin: 0px 350px;
+    border-radius: 30px;
+    border: 20px solid #FF8500;
+    background: transparent;
+    box-shadow: 11px 20px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .herofivebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .herofivebody h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+  }
+  
+  .herofivebody h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+  
+  .btnherofive {
+    background: #FF8500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .feature-section button{
+    margin-left: 580px;
+    margin-top: 50px;
+  }
+
+ 
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .herofive {
+    margin: 0px 20px; /* Adjust margins for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .feature-section button {
+    margin-left: 120px;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+}

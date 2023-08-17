@@ -1,0 +1,61 @@
+.hero8bg{
+  background-image: url('../../assets/herosec8bg.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 260px 0; /* Adjust padding as needed */
+}
+
+.hero8card {
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 15px 8px 0px 0px rgba(0, 0, 0, 0.25), -5px 2px 0px 0px rgba(0, 0, 0, 0.25);/* Add shadow to the card body */
+  }
+  
+  .hero8crdimg {
+    max-height: 150px;
+    width: 100%;
+    margin: 10px auto; /* Center the image horizontally */
+    padding-top: 10px;
+    border-radius: 25px;
+    
+  }
+  
+  .hero8crdtext{
+    color: #000000;
+
+  }
+
+  .hero8bannerdiv{
+    text-align: center;
+  }
+
+  .hero8bannertext{
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+    .hero8crdimg{
+      max-height: 120px; /* Adjust image height for mobile */
+      padding-top: 10px;
+      
+    }
+  
+    
+  }
+  
+  /* Tablets and Desktops (769px and above) */
+  @media (min-width: 769px) {
+    .hero8crdimg {
+      max-height: 170px;
+      padding-top: 10px;
+    }
+  
+    
+  }
+  

@@ -1,0 +1,52 @@
+.map-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: transparent;
+  }
+  
+  .map-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .map-image {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .division-list {
+    flex: 1;
+    padding: 20px;
+    
+    
+  }
+  
+  .division-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .division-item {
+    margin-bottom: 10px;
+  }
+  
+  .division-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ad892c;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .division-name {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .registration-count {
+    font-weight: bold;
+  }
+  

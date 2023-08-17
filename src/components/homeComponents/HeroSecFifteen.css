@@ -1,0 +1,45 @@
+.carousel-section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .carousel-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .carousel-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero15bannerdiv{
+    text-align: center;
+    color: #16023F;
+    font-weight: 600;
+  }
+  .hero15bannertext{
+    
+    display: inline-block; /* Make the h1 element a block */
+    position: relative; /* Enable positioning for the pseudo-element */
+  
+  }
+
+  .hero15bannertext::after {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    content: ''; /* Add the underline using a pseudo-element */
+    position: absolute;
+    bottom: -5px; /* Adjust the distance of the underline from the text */
+    left: 0;
+    width: 100%; /* Make the underline span the full width of the parent */
+    border-bottom: 6px solid #FF8500; /* Add the underline styling */
+  }
